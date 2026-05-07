@@ -1,2 +1,2 @@
 # to_tabs
-Open Source implementation of Tabs Outliner
+Open Source recreation of Tabs Outliner with the purpose of adding new features and making it compatible with Firefox based browsers
