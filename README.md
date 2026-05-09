@@ -1,6 +1,9 @@
 # to_tabs
 Open Source recreation of Tabs Outliner with the purpose of adding new features and making it compatible with Firefox based browsers
 
+## WXT
+This exetension using WXT to make developing this extension easier (as this is the first ever extension made be the repo owner). From a small amount of research this seems to be a moderately popular solution for writing 
+cross browser extensions.
 
 ## Versatile-tree
 This project uses the versatile-tree package
