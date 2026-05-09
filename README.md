@@ -1,6 +1,10 @@
 # to_tabs
 Open Source recreation of Tabs Outliner with the purpose of adding new features and making it compatible with Firefox based browsers
 
+
+## Versatile-tree
+This project uses the versatile-tree package
+
 # TO-DO
 - [ ] Implement/find tree library for tab storage \
 - [ ] Create internal API for managing tabs \
