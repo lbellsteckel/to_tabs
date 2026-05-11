@@ -1,0 +1,27 @@
+This file is here simply to organize the flow of thoughts for how the extension will work
+
+On tab create:
+  -Create new tree node for the tab
+  -Place the node in the tree in the proper spot
+
+Load suspended tab:
+  -Find closest active tab before tab and then open the tab after that tab
+
+Suspend tab:
+ -Mark tab unactive but keep it in the tree
+ -close tab
+
+Delete tab: #Sidenote for future: save the deleted tabs for an undo function
+ -Remove tab from tree
+ -close tab
+
+Moving tab in browser: #Sidenote include moves in undo functions?
+  -Get current windows tabs
+  -find closest active tab and place the tab after that tab in the tree
+
+Moving tab in tree view:
+  -if tab is active
+    -find closest active tab and place the tab after that tab in the browser
+    -place the tab in the tree at the spot
+  -if tab is inactive
+    -place the tab in the tree at the spot
