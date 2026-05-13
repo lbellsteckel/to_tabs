@@ -1,0 +1,5 @@
+browser.runtime.onMessage.addListener(() => {
+	//handle updating tree view in popout window
+});
+
+console.log("Sidepanel Script Loaded");
